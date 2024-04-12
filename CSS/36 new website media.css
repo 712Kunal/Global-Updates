@@ -1,0 +1,538 @@
+
+@media screen and (max-width: 990px) {
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-nav .container {
+        display: none;
+    }
+
+    nav{
+        width: 990px;
+    }
+
+    .main-nav {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .parallax{
+        display: none;
+    }
+
+    .nav-links{
+        margin-left: 50px;
+    }
+
+    .nav-links ul {
+        gap: 14px;
+        font-size: 1rem;
+    }
+
+    .nav-links ul li a {
+        font-weight: 200;
+        font-size: 1.1rem;
+        letter-spacing: 1.2px;
+    }
+
+    .search-bar{
+        height: 28px;
+        gap: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .search-bar input {
+        height: 20px;
+        padding: 8px 24px;
+        width: 150px;
+        height: 100%;
+        font-size: 1.1rem;
+    }
+
+    .search-button {
+        padding: 5px 15px;
+    }
+
+    .company-logo img {
+        width: 200px;
+        margin-left: 28px !important;
+    }
+
+    .sec {
+        margin-top: 45px;
+        position: relative;
+    }
+
+    .sec h1 {
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+    
+    .sec h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .sec p {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .hero-section img{
+        width: 100%;
+    }
+
+    main {
+        padding-block: 20px;
+    }
+
+    .cards-container{
+        width: 960px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: start;
+    }
+
+    .card {
+        width: 300px;
+        min-height: 300px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 760px) {
+     
+    body{
+        width: 100%;
+    }
+
+    .main-nav .container {
+        display: none;
+    }
+
+    nav{
+        width: 760px;
+    }
+
+    .main-nav {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .company-logo img {
+        width: 165px;
+        margin-left: 15px !important;
+    }
+
+    .nav-links{
+        margin-left: 28px;
+    }
+
+    .nav-links ul li a {
+        font-weight: 200;
+        font-size: 1.03rem;
+        letter-spacing: 1.1px;
+    }
+
+    .search-bar{
+        height: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 10px;
+    }
+
+    .search-bar input {
+        height: 20px;
+        padding: 8px 24px;
+        width: 120px;
+        height: 100%;
+        font-size: 1.1rem;
+    }
+
+    .search-button {
+        padding: 4px 12px;
+    }
+
+    .container{
+        width: 750px;
+    }
+
+    .sec {
+        margin-top: 55px;
+        position: relative;
+        padding: 50px;
+    }
+
+    .sec h1 {
+        font-size: 2.2rem;
+        margin-bottom: 4px;
+    }
+    
+    .sec h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .sec p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .hero-section img{
+        width: 100%;
+    }
+
+    main {
+        padding-block: 20px;
+    }
+
+    .cards-container{
+        width: 760px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: start;
+    }
+
+    .card {
+        width: 300px;
+        min-height: 200px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+     
+    body{
+        width: 100%;
+    }
+
+    .main-nav .container {
+        display: none;
+    }
+
+    .nav-toggle i
+    {
+        font-size: 1.5rem;
+        margin-right: 25px !important;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-links ul{
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        background-color: rgba(0, 0, 0, 0.106);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        z-index: 1;
+        transition: all 0.4s ease-in-out;   
+    }
+
+    .nav-links .load-nav{
+        left: 0;
+    }
+
+    .nav-links ul li a{
+        font-size: 1.2rem;
+    }
+
+    .search-bar{
+        height: 30px;
+        gap: 10px;
+        display: flex;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .search-bar input {
+        background-color: white;
+        border: 2px solid purple;
+        height: 20px;
+        border-radius: 8px;
+        padding: 8px 24px;
+        width: 180px;
+        height: 100%;
+        font-size: 1.1rem;
+        color: black;
+    }
+
+    .search-button {
+        background-color: purple;
+        padding: 5px 15px;
+    }
+
+    nav{
+        width: 600px;
+    }
+
+    .main-nav {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .sec {
+        margin-top: 80px;
+        position: relative;
+        padding: 40px;
+    }
+
+    .sec h1 {
+        font-size: 2rem;
+        margin-bottom: 3px;
+    }
+    
+    .sec h2 {
+        font-size: 1.6rem;
+        margin-bottom: 18px;
+    }
+
+    .sec p {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    .hero-section img{
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    main {
+        padding-block: 15px;
+    }
+
+    .cards-container{
+        width: 600px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .card {
+        width: 260px;
+        min-height: 100px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+     
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-nav .container {
+        display: none;
+    }
+
+    nav{
+        width: 500px;
+    }
+
+    .main-nav {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .sec {
+        margin-top: 68px;
+        position: relative;
+        padding: 40px;
+    }
+
+    .sec h1 {
+        font-size: 2rem;
+        margin-bottom: 3px;
+    }
+    
+    .sec h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .sec p {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .hero-section img{
+        width: 100%;
+    }
+
+    main {
+        padding-block: 20px;
+    }
+
+    .cards-container{
+        width: 460px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 200px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 400px) {
+     
+    body{
+        width: 100%;
+    }
+
+    .main-nav .container {
+        display: none;
+    }
+
+    nav{
+        width: 400px;
+    }
+
+    .company-logo img {
+        width: 180px;
+        margin-left: 28px !important;
+    }
+
+    .main-nav {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .sec {
+        margin-top: 60px;
+        position: relative;
+        padding: 40px;
+    }
+
+
+    .sec h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+    }
+    
+    .sec h2 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .sec p {
+        font-size: 0.65rem;
+        font-weight: 400;
+    }
+
+    main {
+        padding-block: 20px;
+    }
+
+    .cards-container{
+        width: 380px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: start;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 100px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+     
+    body{
+        width: 100%;
+    }
+
+    .main-nav .container {
+        display: none;
+    }
+
+    nav{
+        width: 300px;
+    }
+
+    .company-logo img {
+        width: 160px;
+        margin-left: 28px !important;
+    }
+
+    .main-nav {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .sec {
+       display: none;
+    }
+
+    main {
+        padding-block: 150px;
+    }
+
+    .cards-container{
+        width: 280px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 100px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
