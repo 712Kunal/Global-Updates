@@ -23,7 +23,8 @@ search_button.addEventListener('mouseout', () => {
     search_button.style.cursor = '';
 })
 
-const API_KEY = "2dc9283ce01f486da0dd7f70e8142198";
+//add your api key over here
+const API_KEY = "Your api key";
 const url = "https://newsapi.org/v2/everything?q=";
 
 // on loading the window of our website the fetchNews call back function will be called
