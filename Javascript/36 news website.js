@@ -24,7 +24,7 @@ search_button.addEventListener('mouseout', () => {
 })
 
 //add your api key over here
-const API_KEY = env.API_TOKEN;
+const API_KEY = API_TOKEN_KEY;
 const url = "https://newsapi.org/v2/everything?q=";
 
 // on loading the window of our website the fetchNews call back function will be called
