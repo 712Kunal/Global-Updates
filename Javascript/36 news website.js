@@ -1,3 +1,4 @@
+
 let search_but = document.getElementsByTagName('input')[0];
 search_but.addEventListener('click', () => {
     search_but.style.outlineColor = 'rgb(0, 255, 255)';
@@ -23,7 +24,7 @@ search_button.addEventListener('mouseout', () => {
 })
 
 //add your api key over here
-const API_KEY = "Your api key";
+const API_KEY = env.API_TOKEN;
 const url = "https://newsapi.org/v2/everything?q=";
 
 // on loading the window of our website the fetchNews call back function will be called
