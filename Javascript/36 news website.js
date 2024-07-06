@@ -32,7 +32,7 @@ window.addEventListener('load', () => fetchNews("India"));
 async function fetchNews(querry) {
     const response = await fetch(`${url}${querry}&apiKey=${API_KEY}`);
     const data = await response.json();
-    // console.log(data);
+    console.log(data);
     bindData(data.articles);
 }
 
